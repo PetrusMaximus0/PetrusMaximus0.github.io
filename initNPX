@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#RUN the tailwind compile and set up a watch flag
+echo "running script..."
+npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch

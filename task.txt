@@ -1,0 +1,34 @@
+Convert the following page to Tailwind CSS
+
+https://usebootstrap.com/preview-no-frame/eshopper/
+
+Tasks to be done:
+
+-Create the page using Tailwind CSS exclusively
+-Remove submenus from the "Shop, Blog" navigation
+-Remove Carousels from the header and "Recommended items" section
+-Remove expandable categories in the "Category" section.
+-Remove the "Price range" slider.
+-Design a simple look for the shopping cart at the very bottom of the page
+
+The only animation:
+
+When hovering over a product in the "Featured items" section, 
+a covering orange block slides down from the top
+
+
+Javascript written in ES6+ OOP:
+
+-For products in the "Featured items" section, clicking the "Add to cart" button
+ will save the product to the cart.
+
+-After refreshing the page, the products will still be visible in the cart.
+
+-The ability to add and reduce the quantity of products in the cart will update the cart's
+ total price.
+
+What will be focused on:
+
+Styling using Tailwind CSS and HTML5 tags.
+Animation was created using Tailwind CSS for the covering block.
+Shopping cart mechanics and Javascript Code.

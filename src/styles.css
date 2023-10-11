@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.line-divider{
+    border: 1px solid #F0F0E9;
+    position: relative;
+    bottom: -15px;
+    left: 0;
+    height: 0;
+    width: 100%;
+    z-index: -2;
+}
+
+.red-color-trans:hover{
+    color:currentColor;
+    background-color: rgb(255, 60, 0);
+}
+
+.red-color-trans{
+    transition-duration: 500ms;
+}
+
+.blue-color-trans:hover{
+    color:currentColor;
+    background-color: rgb(0, 81, 255);
+}
+
+.blue-color-trans{
+    transition-duration: 500ms;
+}
+
+.yellow-color-trans{
+    transition-duration: 300ms;
+}
+
+.yellow-color-trans:hover {
+    color:#fdb45e;
+}
+
+button.yellow-color-trans:hover{
+    color:white;
+    background-color:#fdb45e;
+    border-color: #fdb45e;
+}
+
+button.yellow-color-trans{
+    transition-duration: 300ms;
+}
+
