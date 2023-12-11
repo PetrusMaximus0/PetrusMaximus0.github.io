@@ -45,6 +45,12 @@ header, main, footer, aside{
     border-radius: 1rem;
 }
 
+@media screen and (max-width: 780px) {
+    .content-grid-container{
+        grid-template-columns: 1fr;
+    }       
+}
+
 .grid-container{
     height: 98vh;
 
